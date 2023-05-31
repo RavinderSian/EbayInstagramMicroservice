@@ -3,13 +3,12 @@ package com.personal.ebayinstagram.model;
 import java.time.ZonedDateTime;
 
 import lombok.Data;
-import lombok.Getter;
 
 @Data
 public class Listing {
     
-    @Getter
     private Long id;
+    private Long itemId;
     private ZonedDateTime listingDate;
     private Double cost;
     private Boolean offer;

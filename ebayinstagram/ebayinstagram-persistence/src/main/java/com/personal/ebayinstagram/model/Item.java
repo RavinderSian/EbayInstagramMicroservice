@@ -9,15 +9,15 @@ import lombok.Data;
 public class Item {
     
     private Long id;
-    private String description;
     private ZonedDateTime saleDate;
     private BigDecimal salePrice;
     private Boolean offer;
     private BigDecimal postage;
     private BigDecimal fees;
     private BigDecimal adFee;
+    private BigDecimal adFeeRate;
     private BigDecimal feeRate;
     private Boolean feeDiscount;
     private BigDecimal buyerPaidPostage;
-    private String Buyer;
+    private Buyer buyer;
 }
