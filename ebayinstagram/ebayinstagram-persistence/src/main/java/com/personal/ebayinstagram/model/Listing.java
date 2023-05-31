@@ -1,5 +1,6 @@
 package com.personal.ebayinstagram.model;
 
+import java.math.BigDecimal;
 import java.time.ZonedDateTime;
 
 import lombok.Data;
@@ -17,6 +18,7 @@ public class Listing {
     private Boolean sold;
     private String Url;
     private Boolean Unsold;
-
+    private Boolean buyerPaysPostage;
+    private BigDecimal postage;
 
 }
