@@ -11,8 +11,7 @@ public class Listing {
     private Long id;
     private Long itemId;
     private ZonedDateTime listingDate;
-    private Double cost;
-    private Boolean offer;
+    private BigDecimal cost;
     private Boolean active;
     private Boolean ended;
     private Boolean sold;
