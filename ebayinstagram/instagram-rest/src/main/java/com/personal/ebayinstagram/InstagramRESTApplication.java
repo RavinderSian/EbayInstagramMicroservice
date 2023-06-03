@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EbayinstagramEbayRESTApplication {
+public class InstagramRESTApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EbayinstagramEbayRESTApplication.class, args);
+		SpringApplication.run(InstagramRESTApplication.class, args);
 	}
 
 }
